@@ -1,8 +1,8 @@
-import { Text, View } from "react-native"
-
+import { Image, Text, View } from "react-native"
+import icons from "../../constants/icons.js";
 const Home = () => {
     return (<View>
-        <Text>Texto texto texto</Text>
+        <Image source={icons.db} />
     </View>
     );
 } 
